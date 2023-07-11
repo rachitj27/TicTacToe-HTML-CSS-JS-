@@ -1,0 +1,33 @@
+body {
+  background-color: orchid;
+}
+
+#grid,
+#messageParagraph {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#grid {
+  font-size: 0;
+  margin-right: 30px;
+}
+
+.square {
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 50px;
+  text-align: center;
+  line-height: 100px;
+  user-select: none;
+  background-size: 100px 100px;
+}
+
+#messageParagraph {
+  color: #ff4c00;
+  font-size: 50px;
+}
